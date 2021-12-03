@@ -1,0 +1,21 @@
+/*HEADER*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-top: 5%;
+}
+/* PRIMER ELEMENTO DEL HEADER */
+.header-pt-vr img{
+    width: 50px;
+    height: 50px;
+}
+/* LOGO */
+.header-logo img{
+    width: 279px;
+    height: auto;   
+}
+/* REDES SOCIALES */
+.header-redes img{
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+/* MAIN MORE */
+.main-more{
+    width: 82%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.learn-more{
+    display: flex;
+    width: 13%;
+}
+/* FLECHA DE ABAJO */
+.arrow{
+    display: flex;
+    width: 5%;
+    cursor: pointer;
+}
+/* FLECHA DE ARRIBA */
+.arrowback{
+    cursor: pointer;
+    transform: rotate(179deg);
+}
+.flecha{
+    display: flex;
+    width: 32%;
+}
+
+.main-more-audio{
+    background: #00A5BE;
+}

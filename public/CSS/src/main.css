@@ -1,0 +1,39 @@
+/* MAIN */
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;   
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;   
+}
+
+.main-info div{
+    width: 455px;
+    height: 54px;
+    background: #685128;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 30px;
+}
+/* AQUÍ ME IMPRIME CONTENIDO EN HTML DESDE JS */
+.main-info-stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* AQUÍ ME IMPRIME CONTENIDO EN HTML DESDE JS */
+.main-characterimg{
+    display: flex;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 0;
+}
